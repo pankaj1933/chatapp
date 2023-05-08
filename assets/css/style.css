@@ -294,7 +294,7 @@ input[type="checkbox"] {
 
 
 .fs-xsm {
-    font-size: var(--fs-xsm)
+    font-size: var(--fs-xsm);
 }
 
 .fs-sm {
@@ -480,10 +480,7 @@ input[type="checkbox"] {
         transform: translateX(-10%);
     }
 
-    input[type="checkbox"] {
-        display: none;
-    }
-
+    
 
     .navbar {
 
@@ -514,7 +511,7 @@ input[type="checkbox"] {
         height: 3px;
         display: flex;
         margin-bottom: 6px;
-        background-color: white;
+        background-color: rgb(185, 37, 37);
 
     }
 
